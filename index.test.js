@@ -4,9 +4,9 @@ import smartypants from "./";
 it("implements SmartyPants", async () => {
   const file = await remark()
     .use(smartypants)
-    .process('# "Hello World!"');
+    .process('# "Hello World..."');
   expect(String(file)).toMatchInlineSnapshot(`
-    "# “Hello World!”
+    "# “Hello World\u2026”
     "
   `);
 });

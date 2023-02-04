@@ -1,7 +1,7 @@
 {
-  "name": "remark-smartypants",
+  "name": "@davidcelis/remark-smartypants",
   "description": "remark plugin to implement SmartyPants",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "license": "MIT",
   "files": [
     "index.js",
@@ -15,17 +15,21 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/silvenon/remark-smartypants.git"
+    "url": "https://github.com/davidcelis/remark-smartypants.git"
   },
   "author": {
-    "name": "Matija Marohnić",
-    "email": "matija.marohnic@gmail.com",
-    "url": "https://silvenon.com"
+    "name": "David Celis",
+    "email": "me@davidcel.is",
+    "url": "https://davidcel.is"
   },
-  "homepage": "https://github.com/silvenon/remark-smartypants#readme",
+  "contributors": [
+    "Matija Marohnić <matija.marohnic@gmail.com> (https://silvenon.com)",
+    "David Celis <me@davidcel.is> (https://davidcel.is)"
+  ],
+  "homepage": "https://github.com/davidcelis/remark-smartypants#readme",
   "bugs": {
-    "url": "https://github.com/silvenon/remark-smartypants/issues",
-    "email": "matija.marohnic@gmail.com"
+    "url": "https://github.com/davidcelis/remark-smartypants/issues",
+    "email": "me@davidcel.is"
   },
   "keywords": [
     "unified",
@@ -43,7 +47,7 @@
   },
   "dependencies": {
     "retext": "^8.1.0",
-    "retext-smartypants": "^5.1.0",
+    "@davidcelis/retext-smartypants": "^5.3.0",
     "unist-util-visit": "^4.1.0"
   },
   "devDependencies": {

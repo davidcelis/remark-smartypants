@@ -5,7 +5,7 @@
 
 import { retext } from 'retext'
 import { visit } from 'unist-util-visit'
-import smartypants from 'retext-smartypants'
+import smartypants from '@davidcelis/retext-smartypants'
 
 /**
  * remark plugin to implement SmartyPants.
